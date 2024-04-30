@@ -1,1 +1,10 @@
-// write code here
+let a = 1;
+console.log("a = " + a);
+let b = 2;
+console.log("b = " + b);
+let c = a++;
+console.log("c = " + c, a++);
+let d = ++c;
+console.log("d = " + d); // บ
+let e = ++d + d++ + d;
+console.log("e = " + e);
